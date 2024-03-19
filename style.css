@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    margin: 0;
+    padding: 0 24px;
+    font-family: monospace;
+    background: url(/img/background.jpeg) no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+}
+
+html, body {
+    height: 100%;
+}
+
+.login-card {
+    position: relative;
+    height: 50%;
+    width: 25%;
+    margin: 0 20px;
+    padding: 70px 30px 44px;
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+.login-card h2 {
+    font-size: 36px;
+    text-align: center;
+    text-decoration: underline blue;
+}
+
+.login-card h3 {
+    margin-top: -17px;
+    font-size: 16px;
+    text-align: center;
+    color: grey;
+}
+
+#login-card {
+    width: 100%;
+    margin: 0;
+    display: grid;
+    gap: 15px;
+}
+
+#login-card input {
+    font-family: inherit;
+    height: 50px;
+    padding: 0 15px;
+    border-radius: 13px;
+    border: 1px solid blue;
+}
+
+#login-card .forget-password {
+    color: blue;
+    cursor: pointer;
+}
+
+#login-card .login {
+    height: 50px;
+    border-radius: 13px;
+    border: 1px solid blue;
+    transition: .5s;
+}
+
+#login-card .login:hover {
+    background-color: rgba(117, 75, 184, 0.247);
+}
+
